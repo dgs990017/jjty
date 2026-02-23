@@ -84,7 +84,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="w-full bg-gray-900 text-white py-2 sm:py-4 px-3 sm:px-6 rounded-lg sm:rounded-xl text-sm sm:text-base font-semibold hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center gap-2 active:scale-95 transform"
                 >
-                  立即下载
+                  立即体验
                 </a>
               </div>
             </div>
