@@ -15,7 +15,7 @@ function App() {
       name: '米兰体育',
       description: '体验最刺激球赛',
       image: 'https://pic1.imgdb.cn/item/699c510a7aea005f38310220.jpg',
-      color: 'from-yellow-500 to-emerald-500',
+      color: 'from-yellow-500 to-yellow-500',
       downloadLink: 'https://example.com/game2'
     },
     {
