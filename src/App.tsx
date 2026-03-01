@@ -5,26 +5,26 @@ function App() {
     {
       id: 1,
       name: '开云体育',
-      description: '充100送100',
+      description: '',
       image: 'https://pic1.imgdb.cn/item/699c51217aea005f38310225.jpg',
       color:'from-yellow-500 to-yellow-500',
-      downloadLink: 'https://example.com/game1'
+      downloadLink: 'https://www.vwqv2s.vip:9663/entry/register79049/?i_code=94491262'
     },
     {
       id: 2,
       name: '米兰体育',
-      description: '体验最刺激球赛',
+      description: '',
       image: 'https://pic1.imgdb.cn/item/699c510a7aea005f38310220.jpg',
       color: 'from-yellow-500 to-yellow-500',
-      downloadLink: 'https://example.com/game2'
+      downloadLink: 'https://www.pr9oj0.vip:9037/entry/register27248/?i_code=321944933'
     },
     {
       id: 3,
-      name: '悠然农场',
-      description: '打造梦想田园，经营特色农庄，享受宁静休闲时光',
-      image: 'https://www.google.com/imgres?q=%E5%BC%80%E4%BA%91&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D61550710975233&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fkaiyun168%2F&docid=Yko-OZT2zEQFwM&tbnid=wb_MO48UHhydjM&vet=12ahUKEwij6Zif0--SAxXVnq8BHcbHAbkQnPAOegQIHhAB..i&w=512&h=512&hcb=2&ved=2ahUKEwij6Zif0--SAxXVnq8BHcbHAbkQnPAOegQIHhAB',
+      name: '星空体育',
+      description: '',
+      image: 'https://pic1.imgdb.cn/item/69a40ac1ac80c84bfd15ae58.png',
       color: 'from-yellow-500 to-yellow-500',
-      downloadLink: 'https://example.com/game3'
+      downloadLink: 'https://www.8ahmna.vip:9003/register/?agent_code=55699651'
     }
   ];
 
