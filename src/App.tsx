@@ -1,4 +1,4 @@
-import { Gamepad2, Download } from 'lucide-react';
+import { Gamepad2, Download, MessageCircle } from 'lucide-react';
 
 function App() {
   const games = [
@@ -99,32 +99,15 @@ function App() {
           </div>
         </div>
 
-        {/* 特色功能展示 */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-xl sm:rounded-2xl shadow-md p-5 sm:p-8 mb-6 sm:mb-8">
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">
-              为什么选择我们？
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
-              <div className="text-center p-3 sm:p-0">
-                <div className="text-3xl sm:text-4xl mb-2">🎮</div>
-                <h4 className="font-semibold text-gray-900 mb-1 text-base sm:text-lg">精选平台</h4>
-                <p className="text-xs sm:text-sm text-gray-600">严格筛选优质娱乐平台</p>
-              </div>
-              <div className="text-center p-3 sm:p-0">
-                <div className="text-3xl sm:text-4xl mb-2">🔒</div>
-                <h4 className="font-semibold text-gray-900 mb-1 text-base sm:text-lg">安全可靠</h4>
-                <p className="text-xs sm:text-sm text-gray-600">官方正版安全保障</p>
-              </div>
-              <div className="text-center p-3 sm:p-0">
-                <div className="text-3xl sm:text-4xl mb-2">⚡</div>
-                <h4 className="font-semibold text-gray-900 mb-1 text-base sm:text-lg">极速下载</h4>
-                <p className="text-xs sm:text-sm text-gray-600">高速服务器快速体验</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </main>
+
+      {/* 在线客服悬浮按钮 */}
+      <div className="fixed bottom-6 right-6 z-50">
+        <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full p-4 shadow-2xl hover:shadow-3xl transform hover:scale-110 transition-all duration-300 touch-manipulation active:scale-95 flex items-center gap-2 group">
+          <MessageCircle className="w-6 h-6" />
+          <span className="font-semibold text-base pr-1">在线客服</span>
+        </button>
+      </div>
 
       {/* 底部区域 */}
       <footer className="bg-white border-t border-gray-200 mt-auto">
