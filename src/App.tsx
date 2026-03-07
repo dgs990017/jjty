@@ -1,8 +1,6 @@
-import { Gamepad2, Download, MessageCircle, X } from 'lucide-react';
-import { useState } from 'react';
+import { Gamepad2, Download } from 'lucide-react';
 
 function App() {
-  const [isCustomerServiceOpen, setIsCustomerServiceOpen] = useState(false);
   const games = [
     {
       id: 1,
@@ -141,77 +139,6 @@ function App() {
           </div>
         </div>
       </footer>
-
-      {/* 在线客服悬浮按钮 */}
-      <div className="fixed bottom-6 right-6 z-50">
-        {/* 客服对话框 */}
-        {isCustomerServiceOpen && (
-          <div className="absolute bottom-20 right-0 w-80 sm:w-96 bg-white rounded-2xl shadow-2xl overflow-hidden animate-in slide-in-from-bottom-5 duration-300">
-            {/* 对话框头部 */}
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                  <MessageCircle className="w-5 h-5 text-blue-600" />
-                </div>
-                <div>
-                  <h3 className="text-white font-semibold text-lg">在线客服</h3>
-                  <p className="text-blue-100 text-xs">我们随时为您服务</p>
-                </div>
-              </div>
-              <button
-                onClick={() => setIsCustomerServiceOpen(false)}
-                className="text-white hover:bg-white/20 rounded-full p-1 transition-colors"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            {/* 对话框内容 */}
-            <div className="p-6 space-y-4">
-              <div className="bg-blue-50 rounded-lg p-4">
-                <p className="text-sm text-gray-700 mb-3">
-                  您好！欢迎咨询，请选择您需要的服务：
-                </p>
-                <div className="space-y-2">
-                  <a
-                    href="https://t.me/your_telegram"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block w-full bg-white hover:bg-gray-50 text-gray-800 font-medium py-3 px-4 rounded-lg transition-colors text-center shadow-sm"
-                  >
-                    💬 Telegram 客服
-                  </a>
-                  <a
-                    href="mailto:support@example.com"
-                    className="block w-full bg-white hover:bg-gray-50 text-gray-800 font-medium py-3 px-4 rounded-lg transition-colors text-center shadow-sm"
-                  >
-                    📧 邮件咨询
-                  </a>
-                  <button className="w-full bg-white hover:bg-gray-50 text-gray-800 font-medium py-3 px-4 rounded-lg transition-colors text-center shadow-sm">
-                    ❓ 常见问题
-                  </button>
-                </div>
-              </div>
-              <div className="text-xs text-gray-500 text-center">
-                工作时间：7×24小时在线服务
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* 悬浮按钮 */}
-        <button
-          onClick={() => setIsCustomerServiceOpen(!isCustomerServiceOpen)}
-          className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-110 active:scale-95 group"
-        >
-          <div className="flex items-center gap-2 px-6 py-4">
-            <MessageCircle className="w-6 h-6 group-hover:animate-pulse" />
-            <span className="font-semibold text-base">在线客服</span>
-          </div>
-          {/* 小红点提示 */}
-          <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
-        </button>
-      </div>
     </div>
   );
 }
