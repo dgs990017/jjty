@@ -8,7 +8,7 @@ function App() {
   };
   const games = [
     {
-      id: 1,
+      id: 1 ,
       name: '开云体育',
       description: '',
       image: 'https://pic1.imgdb.cn/item/699c51217aea005f38310225.jpg',
