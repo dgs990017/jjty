@@ -13,7 +13,7 @@ function App() {
       description: '',
       image: 'https://pic1.imgdb.cn/item/699c51217aea005f38310225.jpg',
       color:'from-yellow-500 to-yellow-500',
-      downloadLink: 'https://www.vwqv2s.vip:9663/entry/register79049/?i_code=94491262'
+      downloadLink: 'https://www.1ijlp6.vip:7988/entry/register80735/?i_code=94491262'
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ function App() {
       description: '',
       image: 'https://pic1.imgdb.cn/item/699c510a7aea005f38310220.jpg',
       color: 'from-yellow-500 to-yellow-500',
-      downloadLink: 'https://www.pr9oj0.vip:9037/entry/register27248/?i_code=321944933'
+      downloadLink: 'https://www.k01ft6.vip:6001/entry/register85450/?i_code=321944933'
     },
     {
       id: 3,
